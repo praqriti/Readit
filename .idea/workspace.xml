@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7683cc62-92e2-4deb-801c-c6a5c1b6a19d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/channel_items/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/channel_items/search.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/readit.iml" afterPath="$PROJECT_DIR$/.idea/readit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/item.rb" afterPath="$PROJECT_DIR$/app/models/item.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/channel_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/channel_items_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="readit.iws" />
@@ -38,20 +34,8 @@
       <file leaf-file-name="item.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/item.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="19" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="6" column="38" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/channel_items/search.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1315519348000" expanded="true" signature="225:350" placeholder="..." />
-                <marker date="1315519348000" expanded="true" signature="276:319" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +43,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/channel_items/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+            <state line="19" column="90" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +70,7 @@
       <file leaf-file-name="channel_items_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/channel_items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="0.24556616">
+            <state line="7" column="88" selection-start="119" selection-end="119" vertical-scroll-proportion="0.14324693">
               <folding />
             </state>
           </provider>
@@ -95,7 +79,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+            <state line="2" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,10 +137,10 @@
         <option value="$PROJECT_DIR$/lib/tasks/parse.rake" />
         <option value="$PROJECT_DIR$/app/models/channel.rb" />
         <option value="$PROJECT_DIR$/app/views/channel_items/search.index.erb" />
+        <option value="$PROJECT_DIR$/app/views/channel_items/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/channel_items/search.html.erb" />
         <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/channel_items/search.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/channel_items/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/channel_items_controller.rb" />
       </list>
     </option>
@@ -695,38 +679,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+        <state line="2" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/item.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+        <state line="6" column="38" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/channel_items/search.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1315519348000" expanded="true" signature="225:350" placeholder="..." />
-            <marker date="1315519348000" expanded="true" signature="276:319" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/channel_items/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+        <state line="19" column="90" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/channel_items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="0.24556616">
+        <state line="7" column="88" selection-start="119" selection-end="119" vertical-scroll-proportion="0.14324693">
           <folding />
         </state>
       </provider>
