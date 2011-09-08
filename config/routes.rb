@@ -1,4 +1,8 @@
 Readit::Application.routes.draw do
+
+  match '/channel_items/search' => 'channel_items#search'
+  resources :channel_items
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
