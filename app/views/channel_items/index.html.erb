@@ -1,0 +1,14 @@
+<html>
+
+<% form_tag channel_items_path :method => "GET" do %>
+
+<%= search_field_tag :search ,params[:search] %>
+<%= submit_tag "Submit", :name => nil %>
+
+<% end %>
+
+
+
+</html>
+
+
