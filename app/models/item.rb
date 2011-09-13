@@ -5,9 +5,11 @@ class Item < ActiveRecord::Base
 def self.search(search)
   if search
   where("title LIKE ?", "%#{search}%")
-  else
-  find_by_sql("select * from items")
   end
+end
+
+def self.display_all
+  find_by_sql("select * from items")
 end
 
 end

@@ -1,6 +1,6 @@
 <h1>Items</h1>
 
-<% form_tag channel_items_path, :method => "get" do %>
+<% form_tag :action => 'search', :method => "get" do %>
 
 <%= search_field_tag :search ,params[:search] %>
 <%= submit_tag "Submit", :name => nil %>
@@ -9,10 +9,10 @@
 
 <ul>
   <% @items.each do |item| %>
-  <li>
-   <%= item.title %>
-  </li>
- <% end %>
+      <li>
+       <%= item.title %>
+      </li>
+  <% end %>
 </ul>
 
 

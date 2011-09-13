@@ -1,0 +1,23 @@
+
+<% if @items.blank? %>
+          <%="No Items match your query"%>
+          <%= link_to "Search again",:action=>"index" %>
+<%else %>
+<% form_tag :action => 'search', :method => "get" do %>
+
+    <%= search_field_tag :search_by_author %>
+    <%= submit_tag "Submit By Author", :name => nil %>
+
+    <%= search_field_tag :search_by_comments %>
+    <%= submit_tag "Submit By Number Of Comments", :name => nil %>
+
+    <% end %>
+
+    <ul>
+      <% @items.each do |item| %>
+      <li>
+       <%= item.title %>
+      </li>
+     <% end %>
+    </ul>
+<% end %>
