@@ -1,8 +1,9 @@
 
 <% if @items.blank? %>
           <%="No Items match your query"%>
-          <%= link_to "Search again",:action=>"index" %>
+          <%= link_to "Search again!",:action=>"index" %>
 <%else %>
+
 <% form_tag :action => 'search', :method => "get" do %>
 
     <%= search_field_tag :search_by_author %>
